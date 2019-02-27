@@ -2,5 +2,18 @@
     "version": "1.0",
     "url": "https://github.com/Shopify/slate/archive/master.zip",
     "extract_dir": "slate-master",
+    "installer": {
+        "script": "add_first_in_path \"$env:USERPROFILE\\slate\\1.0" $global"
+    },
+    "uninstaller": {
+        "script": "remove_from_path \"$env:USERPROFILE\\slate\\1.0" $global"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Shopify/slate/archive/master.zip",
+            "hash": "f05ef27bbe1e4a3505b3f7f1bb6c7e60ad9b13fd563ae7b3c46fd85e0a5278fa"
+        }
+    },
     "bin": "slate.ps1"
+    
 }

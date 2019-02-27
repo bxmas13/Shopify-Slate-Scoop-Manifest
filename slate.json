@@ -1,0 +1,6 @@
+{
+    "version": "1.0",
+    "url": "https://github.com/Shopify/slate/archive/master.zip",
+    "extract_dir": "slate-master",
+    "bin": "slate.ps1"
+}
